@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Тренажёр ЕГЭ</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div class="app">
+    <h1>📝 ЕГЭ Тренажёр</h1>
+    
+    <div class="controls">
+      <select id="dictionary-select"></select>
+    </div>
+    
+    <div id="score">Счёт: 0/0</div>
+    
+    <div id="word-container"></div>
+    
+    <div id="options-container"></div>
+    
+    <div id="result"></div>
+    
+    <button id="next-btn" style="display: none;">Дальше →</button>
+  </div>
+  
+  <script src="words.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
